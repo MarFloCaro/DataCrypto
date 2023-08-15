@@ -23,14 +23,6 @@ Partiendo de un EDA, vamos a conocer qué datos nos proporcionan algunas de las 
 # <h1 align=center> **Desarrollo del Proyecto**</h1>
 
 ## Selección de Monedas
-<br>
-
-![Bitcoin](src/bitcoin.png) ![Dash](src/dash.png) ![Decred](src/decred.png)
-![Dero](src/dero.png) ![Grin](src/grin.png) ![Monero](src/monero.png)
-![Pirate Chain](src/pirate-chain.png) ![Secret](src/secret.png) ![Verge](src/verge.png)
-![Zcash](src/zcash.png) ![ZenCash](src/zencash.png)
-
-<br>
 
 La elección de las criptomonedas se basó en su particularidad de ser consideradas "privacy coins", es decir, criptomonedas diseñadas para enfocarse en la privacidad y confidencialidad de las transacciones. Estas criptomonedas han ganado un lugar destacado en el mundo de las finanzas digitales debido a su enfoque en proteger la identidad y datos personales de los compradores durante las transacciones en línea. Consideramos que el hipotético cliente ha venido a nosotros planteando sus inquietudes en temas de seguridad y privacidad, y estas criptomonedas están diseñadas específicamente para abordar las mismas.
 
