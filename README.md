@@ -24,19 +24,12 @@ Partiendo de un EDA, vamos a conocer qué datos nos proporcionan algunas de las 
 
 ## Selección de Monedas
 <br>
-<div style="display: flex; justify-content: space-between;">
-    <img src="src/bitcoin.png" alt="Bitcoin" style="max-width: 7%; max-height: 7%;">
-    <img src="src/dash.png" alt="Dash" style="max-width: 7%; max-height: 7%;">
-    <img src="src/decred.png" alt="Decred" style="max-width: 7%; max-height: 7%;">
-    <img src="src/dero.png" alt="Dero" style="max-width: 7%; max-height: 7%;">
-    <img src="src/grin.png" alt="Grin" style="max-width: 7%; max-height: 7%;">
-    <img src="src/monero.png" alt="Monero" style="max-width: 7%; max-height: 7%;">
-    <img src="src/pirate-chain.png" alt="Pirate Chain" style="max-width: 7%; max-height: 7%;">
-    <img src="src/secret.png" alt="Secret" style="max-width: 7%; max-height: 7%;">
-    <img src="src/verge.png" alt="Verge" style="max-width: 7%; max-height: 7%;">
-    <img src="src/zcash.png" alt="Zcash" style="max-width: 7%; max-height: 7%;">
-    <img src="src/zencash.png" alt="ZenCash" style="max-width: 7%; max-height: 7%;">
-</div>
+
+![Bitcoin](src/bitcoin.png) ![Dash](src/dash.png) ![Decred](src/decred.png)
+![Dero](src/dero.png) ![Grin](src/grin.png) ![Monero](src/monero.png)
+![Pirate Chain](src/pirate-chain.png) ![Secret](src/secret.png) ![Verge](src/verge.png)
+![Zcash](src/zcash.png) ![ZenCash](src/zencash.png)
+
 <br>
 
 La elección de las criptomonedas se basó en su particularidad de ser consideradas "privacy coins", es decir, criptomonedas diseñadas para enfocarse en la privacidad y confidencialidad de las transacciones. Estas criptomonedas han ganado un lugar destacado en el mundo de las finanzas digitales debido a su enfoque en proteger la identidad y datos personales de los compradores durante las transacciones en línea. Consideramos que el hipotético cliente ha venido a nosotros planteando sus inquietudes en temas de seguridad y privacidad, y estas criptomonedas están diseñadas específicamente para abordar las mismas.
