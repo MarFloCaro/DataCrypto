@@ -95,7 +95,7 @@ Ambos índices de base son estáticos y se calculan utilizando la última fecha 
 
 # <h1 align=center> **Conclusiones y Recomendaciones**</h1>
 
-En ocasión de reunirse con el cliente, la idea es presentar datos y gráficos del análisis para plantear panorama donde, con los KPIs elaborados como base, se opte por uno de estos escenarios:
+En ocasión de reunirse con el cliente, la idea es presentar datos y gráficos del análisis para plantear un panorama donde, con los KPIs elaborados como base, se opte por uno de estos escenarios:
 
 * Con KPIs de seguridad y confianza adecuados, elegir una opción que no tenga un rendimiento demasiado destacado, pero que plantee baja volatilidad, a modo de equivalente de ahorro en moneda constante.
 * Nuevamente con seguridad y confianza adecuados, tolerar mayor volatilidad en pos de buscar mayor rendimiento para realizar una inversión en lugar de un ahorro.
