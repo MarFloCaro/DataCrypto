@@ -44,11 +44,20 @@ Luego de una elaborada lectura para formar una idea respecto a factores de impor
 
 La información presente en la recopilación incluye el algoritmo de hashing que utiliza cada moneda, y también algunas etiquetas con referencia a categorías a las cuales pertenecen las mismas. Utilicé la repitencia de términos indicativos de privacidad y seguridad como medida de evaluación, un método muy simple: A mejor algoritmo, mayor puntaje; también agregando puntaje a las menciones de Zero Knowledge. Esto dio lugar a una columna llamada privacy_score.
 
+<p align="center">
+  <img src="src/privacidad.jpg" alt="Privacidad"  width="50%"/>
+</p>
+
 ### Confianza de la Comunidad
 
 Luego del EDA, y notando una serie de scores, rankings y datos categóricos dentro de la información extraída, decidí elaborar medidas/índices que me permitieran analizar la confianza de la comunidad crypto. Convertí la ponderación de los brokers/operadores de crypto que utiliza un indicador de tipo semáforo (🟢 verde, 🟡 amarillo, 🔴 rojo) en números enteros, y agregué una columna a mi dataframe de Pandas. 
 
 En el siguiente paso, luego de analizar correlaciones y redundancias, seleccioné los scores y rankings, incluido este último de elaboración propia; y los sometí a un proceso de reducción de dimensionalidad usando librerías de ML, para poder obtener un único dato representativo de todas las columnas. Finalmente exporté el dataframe actualizado para uso en el dashboard, con el dato de Privacidad/Seguridad en él.
+
+<p align="center">
+  <img src="src/confianza.jpg" alt="Confianza"  width="50%"/>
+</p>
+
 
 ### Estabilidad
 
@@ -63,6 +72,10 @@ ATR = $\frac{\sum{\text{True Range}}}{\text{n}}$
 
 En el dashboard podemos observar la medida de ATR aplicada por moneda para cualquier fecha dentro del dataset donde la moneda exista.
 
+<p align="center">
+  <img src="src/estabilidad.jpg" alt="Estabilidad"  width="50%"/>
+</p>
+
 ### Rendimiento
 
 Para medir el rendimiento y la rentabilidad, se elaboró una medida de ROI (Return of Investment, o Retorno de la Inversión). Esta medida es mucho menos granular, y plantea sólo dos fechas de análisis. Téngase en cuenta que como no estamos analizando montos invertidos, la medida consiste en:
@@ -70,6 +83,11 @@ Para medir el rendimiento y la rentabilidad, se elaboró una medida de ROI (Retu
 ROI = $\frac{\text{Precio Actual}-\text{Precio Inicial}}{\text{Precio Inicial}}$
 
 Al igual que el ATR, el ROI también ofrece posibilidad de observarse por intervalos seleccionados dentro del dashboard para la moneda elegida.
+
+<p align="center">
+  <img src="src/rendimiento.jpg" alt="Rendimiento"  width="50%"/>
+</p>
+
 
 ## KPIs (presentados por moneda seleccionada y fechas según detalle)
 
@@ -87,11 +105,16 @@ Ambos índices de base son estáticos y se calculan utilizando la última fecha 
 
 ### Estabilidad
 
-* Se elaboraron dos KPIs con base al ATR, agregando un objetivo, con diferentes rangos de tiempo. Ambos son dinámicos, parten de una fecha seleccionada y retroceden 1 ó 5 años, respectivamente; siempre y cuando haya datos para esas fechas.
+* Se elaboraron dos KPIs con base al ATR, agregando un objetivo, con diferentes rangos de tiempo. Ambos son dinámicos, parten de una fecha seleccionada y retroceden 1 ó 3 años, respectivamente; siempre y cuando haya datos para esas fechas.
 
 ### Rendimiento
 
 * Se elaboraron sendos KPIS en base al ROI, agregando un objetivo, con los mismos intervalos de tiempo planteados en los de estabilidad.
+
+<p align="center">
+  <img src="src/KPIs.jpg" alt="KPIs"  width="50%"/>
+</p>
+
 
 # <h1 align=center> **Conclusiones y Recomendaciones**</h1>
 
@@ -108,6 +131,8 @@ En ocasión de reunirse con el cliente, la idea es presentar datos y gráficos d
 + [EDA Jupyter Notebook](eda.ipynb)
 + [Endpoints Script de Python](endpoints.py)
 + [Reducción Dimensionalidad Sentiments y Score Seguridad Jupyter Notebook](dimensionalidad_seguridad.ipynb)
++ [Generación de Archivos CSV para Dashboard +  columna True Range Jupyter Notebook](data_export.ipynb)
++ [Crypto Coins Analytics - PowerBI](CryptoCoinsAnalytics.pbix)
 
 ## Fuentes de datos principales
 
